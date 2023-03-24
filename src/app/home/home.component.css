@@ -1,0 +1,46 @@
+
+.bg-img {
+
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('src/assets/img-home/ilustracao.png');
+    border: none;
+    opacity: 15%;
+}
+
+.bg-img1 {
+
+    width: 600px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('src/assets/img-home/ilustracao.png');
+    position: relative;
+    left: 320px;
+    border: none;
+    opacity: 15%;
+}
+
+#carouselExampleIndicators {
+    
+    width: 800px;
+    height: 300px;
+    position: relative;
+    top: 10%;
+    left: 20%;
+}
+
+#carouselExampleIndicators img{
+    position: relative;
+    top: 10%;
+    left: 25%;
+    height: 250px;
+    
+}
+
+#bg-sobre {
+
+    position: absolute;
+    top: 650px;
+}

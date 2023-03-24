@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal do Cliente</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Menu -->
+        <nav class="navbar fixed-top navbar-expand-lg bg-light"> 
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="/assets/img-home/logo1_low.png" alt="logo" width="50" height="50" class="d-inline-block align-text-top">
+              </a>
+              
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#bloco-Introducao">Introdução</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#bloco-Tutorial">Tutoriais</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#bloco-Duvidas">Dúvidas Técnicas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#bloco-Noticias">Notícias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">Documentos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">Downloads</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Pesquisar..." aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+        <!-- Bloco de introdução -->
+        <div class="container">
+            <a name="bloco-Introducao"></a>
+            <br><br><br><br>
+            <div class="row">
+                <div class="col-sm-4  justify-content-start">
+                    <h3 class="card-title">Bem-vindo!</h3>
+                    <br>
+                    <p>Aproveite o nosso site ao máximo, desfrutando de todo o seu conteúdo.</p>
+                    <br>
+                    <p>Nele você poderá realizar treinamentos, conhecer melhor o nosso sistema e ficar por dentro das novidades.</p>
+                    <br>
+                    <p>E também terá acesso a notícias e as principais leis, normas e regulamentações do seu negócio.</p>
+                </div>
+                <div class="col-sm-4 d-flex justify-content-center bg-img">
+                    
+                </div>
+                <div class="col-sm-4 justify-content-end">
+                    <br>
+                    <br>
+                    <iframe 
+                    src="https://www.youtube.com/embed/VDfk6_N8Ndo?playlist=VDfk6_N8Ndo&loop=1&autoplay=1&mute=1&controls=0" 
+                    name="iframe_a" 
+                    title="apresentação" 
+                    height="230" 
+                    width="409"></iframe>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        <!-- Bloco de Tutorial -->
+        <div class="row bg-light">
+          <a name="bloco-Tutorial"></a>
+          <br><br><br><br>
+            <div class="col-sm-4 d-flex justify-content-evenly">
+                <div class="card m-3 shadow" style="width: 18rem;">
+                    <img src="/assets/img-home/consultoria.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Vídeos</h5>
+                      <p class="card-text">Venha aprender com nossos treinamentos interativos no sistema.</p>
+                      <a href="#" class="btn btn-success">Assistir</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4 d-flex justify-content-center">
+                <div class="card m-3 shadow" style="width: 18rem;">
+                    <img src="/assets/img-home/livros.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Manuais</h5>
+                      <p class="card-text">Conheça a documentação dos módulos, para um melhor aprofundamento no sistema.</p>
+                      <a href="#" class="btn btn-success">Ler</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4 d-flex justify-content-evenly">
+                <div class="card m-3 shadow" style="width: 18rem;">
+                    <img src="/assets/img-home/sistema.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Legislação</h5>
+                      <p class="card-text">Consulte as normas, leis e regulamentações pertinentes as operações e rotinas diárias.</p>
+                      <a href="#" class="btn btn-success">Consultar</a>
+                    </div>
+                  </div>
+            </div> 
+        </div>
+        
+        <!-- Bloco de Dúvidas -->
+        <div class="row">
+          <a name="bloco-Duvidas"></a>
+          <br><br><br><br>
+            <!-- área figura -->
+            <div class="col">
+                <img src="/assets/img-home/ideia.jpg" alt="..." class="img-thumbnail float-start m-3" style="opacity: 30%; width: 600px; height: 500px;">
+            </div>
+            <!-- Cadastro de dúvidas -->
+            <div class="col">
+                <h5 class="card-title">Você ainda tem dúvidas técnicas?</h5>
+                <p class="card-text">(Preencha o formulário abaixo que entraremos em contato)</p>
+                <div>
+                  <form>
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Número de Série</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">Exemplo: 23-456</div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <label for="sistema" class="form-label">Selecione um Assunto</label>
+                        <select class="form-select" aria-label="Default select example">
+                          <option selected>Selecione um item da lista</option>
+                          <option value="1">Contabilidade</option>
+                          <option value="2">Folha de Pagamento</option>
+                          <option value="3">Inscrita Fiscal</option>
+                          <option value="4">Financeiro</option>
+                          <option value="5">Instalação</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlTextarea1" class="form-label">Descreva sua Dúvida</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="mb-3">
+                      <label for="formFile" class="form-label">Anexe um arquivo</label>
+                      <input class="form-control" type="file" id="formFile">
+                    </div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Enviar
+                    </button>
+                  </form>
+                </div>
+            </div> 
+        </div>
+        <br><br><br><br><br><br><br><br>
+        <!-- Bloco de Notícias -->
+        <div id="carouselExampleIndicators" class="carousel carousel-dark slide shadow" data-bs-ride="true">
+          <a name="bloco-Noticias"></a>
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/assets/img-home/esocial.png" class="d-block w-50" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/assets/img-home/efdReinf.jpg" class="d-block w-50" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/assets/img-home/conectividade.png" class="d-block w-50" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <br>
+        <div class="row">
+            <footer>
+                <h6>By Rafael</h6>
+            </footer>
+        </div>
+    </div>
+    
+</body>
+
+</html>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Dados de Contato</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="row">
+            <div class="col">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Nome</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Informe seu nome e sobre nome.</div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Telefone</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Informe seu email para contato sobre a dúvida.</div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Transmitir</button>
+      </div>
+    </div>
+  </div>
+</div>
